@@ -198,13 +198,16 @@
         margin-top: 380px;
         
     }
+    .img2{
+        height: 50vh
+    }
     .img2 i{
         margin-left: 75%;
         font-size: 30px;
         position: absolute;
     }
     .details{
-        margin-top: 150px;
+        margin-top: 160px;
     }
     .img2{
         display: flex;
