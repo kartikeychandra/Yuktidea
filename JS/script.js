@@ -28,4 +28,18 @@ arr.forEach((Element) => {
 
         }
     })
+    Element.addEventListener('mouseover', (e) => {
+        let index = parseInt(e.target.id)
+        
+        let img2 = document.getElementById(`${index}0`)
+        img2.style.display = "block"
+        let coll = arr2.slice()
+        var i = index-1
+        coll.splice(i, 1)
+        coll.forEach(myFunc);
+        function myFunc(item){
+            item.style.display = "none"
+
+        }
+    })
 })
